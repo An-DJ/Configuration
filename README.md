@@ -8,6 +8,8 @@
           +--- maven
                  |
                  +--- aliyun-settings.xml
+                 |
+                 +--- aliyun-maven-dockerfile
           
 
 ## COPYRIGHT
