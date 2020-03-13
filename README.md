@@ -6,10 +6,14 @@
     Configuration
           |
           +--- maven
+          |      |
+          |      +--- aliyun-settings.xml
+          |      |
+          |      +--- aliyun-maven-dockerfile
+          |
+          +---- log
                  |
-                 +--- aliyun-settings.xml
-                 |
-                 +--- aliyun-maven-dockerfile
+                 +--- colorful-logback.xml
           
 
 ## COPYRIGHT
