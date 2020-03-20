@@ -1,0 +1,89 @@
+//  personal powershell profiles.
+//
+//  Copyright (c) 2020 AnDJ. All rights reserved.
+//  Author: AnDJ (Junduo Dong)
+//  Email: andj4cn@gmail.com
+//  Use of this source code is governed by MIT license.
+
+// guid looks like "61c54bbd-c2c6-5271-96e7-009a87ff44bf"
+// fill the specific guid for ur use.
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{default-guid}",
+
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+        },
+        "list":
+        [
+            {
+                // Make changes here to the powershell.exe profile
+                "guid": "{powershell-guid}",
+                "acrylicOpacity" : 0.5,
+                "background" : "#000000",
+                "backgroundImageOpacity" : 0.9,
+                "closeOnExit" : true,
+                "colorScheme" : "CMD",
+                "commandline" : "powershell.exe",
+                "cursorColor" : "#FFFFFF",
+                "cursorShape" : "bar",
+                "fontFace" : "Consolas",
+                "fontSize" : 12,
+                "historySize" : 9001,
+                "name" : "Windows PowerShell",
+                "padding" : "0, 0, 0, 0",
+                "snapOnInput" : true,
+                "startingDirectory" : "%USERPROFILE%",
+                "tabTitle" : "Powershell",
+                "useAcrylic" : false
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{cmd-guid}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{azure-cloud-shell-guid}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "background" : "#000000",
+            "black" : "#0C0C0C",
+            "blue" : "#0037DA",
+            "brightBlack" : "#767676",
+            "brightBlue" : "#3B78FF",
+            "brightCyan" : "#61D6D6",
+            "brightGreen" : "#16C60C",
+            "brightPurple" : "#B4009E",
+            "brightRed" : "#E74856",
+            "brightWhite" : "#F2F2F2",
+            "brightYellow" : "#F9F1A5",
+            "cyan" : "#3A96DD",
+            "foreground" : "#FFFFFF",
+            "green" : "#13A10E",
+            "name" : "CMD",
+            "purple" : "#881798",
+            "red" : "#C50F1F",
+            "white" : "#CCCCCC",
+            "yellow" : "#C19C00"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}

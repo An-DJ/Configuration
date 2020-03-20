@@ -12,9 +12,14 @@
           |      +--- aliyun-maven-dockerfile
           |
           +---- log
-                 |
-                 +--- colorful-logback.xml
-          
+          |      |
+          |      +--- colorful-logback.xml
+          |
+          +-- powershell
+          |      |
+          |      +--- profiles.json
+          |
+          ...   
 
 ## COPYRIGHT
 
