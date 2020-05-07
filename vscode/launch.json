@@ -1,0 +1,29 @@
+//  Copyright (c) 2020 AnDJ. All rights reserved.
+//  Author: AnDJ (Junduo Dong)
+//  Email: andj4cn@gmail.com
+//  Use of this source code is governed by MIT license.
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // demo for gdb
+            "name": "(gdb) Launch", 
+            "preLaunchTask": "demo label",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "demo.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }]
+}

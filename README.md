@@ -19,6 +19,15 @@
           |      |
           |      +--- profiles.json
           |
+          +-----vim
+          |      |
+          |      +--- .vimrc
+          |
+          +----vscode
+                 |
+                 +--- tasks.json
+                 |
+                 +--- launch.json
           ...   
 
 ## COPYRIGHT
